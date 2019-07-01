@@ -1,0 +1,117 @@
+PODS:
+  - "!ProtoCompiler (3.6.0)":
+    - Protobuf (~> 3.0)
+  - Flutter (1.0.0)
+  - flutter_blue (0.0.1):
+    - "!ProtoCompiler"
+    - Flutter
+    - flutter_blue/Protos (= 0.0.1)
+  - flutter_blue/Protos (0.0.1):
+    - "!ProtoCompiler"
+    - Flutter
+    - Protobuf
+  - flutter_microduino_html (0.0.1):
+    - Flutter
+    - WebViewJavascriptBridge
+  - gt3 (0.0.1):
+    - Flutter
+    - GT3Captcha
+  - GT3Captcha (0.1.3)
+  - mob_sharesdk (4.2.2):
+    - mob_sharesdk/ShareSDK (= 4.2.2)
+    - MOBFoundation
+  - mob_sharesdk/ShareSDK (4.2.2):
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKPlatforms/Facebook (4.2.2):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKPlatforms/QQ (4.2.2):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKPlatforms/SinaWeibo (4.2.2):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKPlatforms/Twitter (4.2.2):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKPlatforms/WeChat (4.2.2):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKUI (4.2.2):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - MOBFoundation (3.2.1)
+  - path_provider (0.0.1):
+    - Flutter
+  - Protobuf (3.6.1)
+  - shared_preferences (0.0.1):
+    - Flutter
+  - sharesdk (0.0.1):
+    - Flutter
+    - mob_sharesdk
+    - mob_sharesdk/ShareSDKPlatforms/Facebook
+    - mob_sharesdk/ShareSDKPlatforms/QQ
+    - mob_sharesdk/ShareSDKPlatforms/SinaWeibo
+    - mob_sharesdk/ShareSDKPlatforms/Twitter
+    - mob_sharesdk/ShareSDKPlatforms/WeChat
+    - mob_sharesdk/ShareSDKUI
+  - url_launcher (0.0.1):
+    - Flutter
+  - WebViewJavascriptBridge (6.0.3)
+
+DEPENDENCIES:
+  - Flutter (from `.symlinks/flutter/ios`)
+  - flutter_blue (from `.symlinks/plugins/flutter_blue/ios`)
+  - flutter_microduino_html (from `.symlinks/plugins/flutter_microduino_html/ios`)
+  - gt3 (from `.symlinks/plugins/gt3/ios`)
+  - path_provider (from `.symlinks/plugins/path_provider/ios`)
+  - shared_preferences (from `.symlinks/plugins/shared_preferences/ios`)
+  - sharesdk (from `.symlinks/plugins/sharesdk/ios`)
+  - url_launcher (from `.symlinks/plugins/url_launcher/ios`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - "!ProtoCompiler"
+    - GT3Captcha
+    - mob_sharesdk
+    - MOBFoundation
+    - Protobuf
+    - WebViewJavascriptBridge
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: ".symlinks/flutter/ios"
+  flutter_blue:
+    :path: ".symlinks/plugins/flutter_blue/ios"
+  flutter_microduino_html:
+    :path: ".symlinks/plugins/flutter_microduino_html/ios"
+  gt3:
+    :path: ".symlinks/plugins/gt3/ios"
+  path_provider:
+    :path: ".symlinks/plugins/path_provider/ios"
+  shared_preferences:
+    :path: ".symlinks/plugins/shared_preferences/ios"
+  sharesdk:
+    :path: ".symlinks/plugins/sharesdk/ios"
+  url_launcher:
+    :path: ".symlinks/plugins/url_launcher/ios"
+
+SPEC CHECKSUMS:
+  "!ProtoCompiler": c9526df99fafd398a393def617ae18d3774b7232
+  Flutter: 9d0fac939486c9aba2809b7982dfdbb47a7b0296
+  flutter_blue: 2552a05424464ae985bc8b28db6c251c7fd9dfe1
+  flutter_microduino_html: 7c51a55dc3879567a5577d4cf188b87669701894
+  gt3: d3bbbcc454c950f163763ee072508766b4d34865
+  GT3Captcha: c4977b01a99691726f544955ae04b71a6bd27e60
+  mob_sharesdk: e36e88015480f4d0c28e99ef8875ce1e10ca3a9e
+  MOBFoundation: ce2ba976fd435b0cb06897466b2746e639895b7d
+  path_provider: 09407919825bfe3c2deae39453b7a5b44f467873
+  Protobuf: 1eb9700044745f00181c136ef21b8ff3ad5a0fd5
+  shared_preferences: 5a1d487c427ee18fcd3ea1f2a131569481834b53
+  sharesdk: dc69ef855c237227a575efebc71fe2132c35df01
+  url_launcher: 92b89c1029a0373879933c21642958c874539095
+  WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
+
+PODFILE CHECKSUM: f35bde5d8b11a314f2478bd7dc82fda438e6c724
+
+COCOAPODS: 1.5.3

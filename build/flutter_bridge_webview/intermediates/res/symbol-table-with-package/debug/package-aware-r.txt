@@ -1,0 +1,2 @@
+com.microduino.flutter_js_bridge
+string app_name

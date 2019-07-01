@@ -1,0 +1,40 @@
+{
+  "./zh-CN.json": [
+    {
+      "file": "static/js/3.4a64333b7238768b25db.js",
+      "publicPath": "static/js/3.4a64333b7238768b25db.js",
+      "chunkName": null,
+      "id": null
+    }
+  ],
+  "./en-US.json": [
+    {
+      "file": "static/js/2.114261586c16d3246b76.js",
+      "publicPath": "static/js/2.114261586c16d3246b76.js",
+      "chunkName": null,
+      "id": null
+    }
+  ],
+  "./modules/Main/views/AssetTools": [
+    {
+      "file": "static/js/0.847e7b07f680e693e865.js",
+      "publicPath": "static/js/0.847e7b07f680e693e865.js",
+      "id": 1179,
+      "name": "./src/modules/Main/views/AssetTools.jsx"
+    },
+    {
+      "file": "static/css/1.0e4338761429b4eb16ac.css",
+      "publicPath": "static/css/1.0e4338761429b4eb16ac.css",
+      "chunkName": null,
+      "id": 1179,
+      "name": "./src/modules/Main/views/AssetTools.jsx"
+    },
+    {
+      "file": "static/js/1.1ecb5b991e8bca1c7c2f.js",
+      "publicPath": "static/js/1.1ecb5b991e8bca1c7c2f.js",
+      "chunkName": null,
+      "id": 1179,
+      "name": "./src/modules/Main/views/AssetTools.jsx"
+    }
+  ]
+}
