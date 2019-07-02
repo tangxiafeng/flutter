@@ -34,12 +34,12 @@ class Constants {
 
     static const String PATH_IMAGES = 'assets/images/';
 
-    static const String USER_CENTER_INTERNATIONAL = 'https://accounts.microduino.cc';
-    static const String USER_CENTER_LOCAL = 'https://accounts.microduino.cn';
+    static const String USER_CENTER_INTERNATIONAL = '';
+    static const String USER_CENTER_LOCAL = '';
     // static const String USER_CENTER_LOCAL = 'http://user-center-api.office.microduino.cn/'; // test server
 
-    static const String PROJECTS_INTERNATIONAL = 'https://project.ideaxlab.net';
-    static const String PROJECTS_LOCAL = 'https://project.ideaxlab.cn';
+    static const String PROJECTS_INTERNATIONAL = '';
+    static const String PROJECTS_LOCAL = '';
     // static const String PROJECTS_LOCAL = 'http://project-api.office.microduino.cn'; // test server
 
     static const int STATUS_SUCCESS = 0;
@@ -58,8 +58,8 @@ class Constants {
     static const String URL_PATH_DELETE_PROJECT = '/project/all/%s';
     static const String URL_PATH_CHECK_VERIFY_CODE = '/user/checkVerifyCode';                    /// 检验验证码是否正确
     static const String URL_PATH_CHECK_EXISTS = '/user/checkExists';                             /// 检验用户是否存在
-	static const String URL_PATH_REGISTER = '/user/register/verifyCode';                         /// 注册
-	static const String URL_PATH_RESET_PASSWORD = '/user/resetPassword';                         /// 重置密码
+	  static const String URL_PATH_REGISTER = '/user/register/verifyCode';                         /// 注册
+	  static const String URL_PATH_RESET_PASSWORD = '/user/resetPassword';                         /// 重置密码
     static const String URL_PATH_CHANGE_PASSWORD = '/user/changePassword';                       /// 修改密码
     static const String URL_PATH_GT3 = '/base/captcha';                                          /// 极验
     static const String URL_PATH_SHARED_APP_LOGIN = '/Shared/app/login';                         /// 第三方登陆
