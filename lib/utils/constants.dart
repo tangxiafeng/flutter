@@ -51,18 +51,18 @@ class Constants {
     static const String HTTP_METHOD_DELETE = 'DELETE';
     static const String HTTP_METHOD_PATCH = 'PATCH';
 
-    static const String URL_PATH_LOGIN = '/user/longLogin';
-    static const String URL_PATH_PROJECTS = '/project/myLists?limit=%d&skip=%d';
-    static const String URL_PATH_VERIFY_CODE = '/user/verifyCode?checkUsername=%s';              /// 发送验证码
-    static const String URL_PATH_UPDATE_PROJECT = '/project/info/%s';
+    static const String URL_PATH_LOGIN = '';
+    static const String URL_PATH_PROJECTS = '';
+    static const String URL_PATH_VERIFY_CODE = '';                             /// 发送验证码
+    static const String URL_PATH_UPDATE_PROJECT = '';
     static const String URL_PATH_DELETE_PROJECT = '/project/all/%s';
-    static const String URL_PATH_CHECK_VERIFY_CODE = '/user/checkVerifyCode';                    /// 检验验证码是否正确
-    static const String URL_PATH_CHECK_EXISTS = '/user/checkExists';                             /// 检验用户是否存在
-	  static const String URL_PATH_REGISTER = '/user/register/verifyCode';                         /// 注册
-	  static const String URL_PATH_RESET_PASSWORD = '/user/resetPassword';                         /// 重置密码
-    static const String URL_PATH_CHANGE_PASSWORD = '/user/changePassword';                       /// 修改密码
-    static const String URL_PATH_GT3 = '/base/captcha';                                          /// 极验
-    static const String URL_PATH_SHARED_APP_LOGIN = '/Shared/app/login';                         /// 第三方登陆
+    static const String URL_PATH_CHECK_VERIFY_CODE = '';                       /// 检验验证码是否正确
+    static const String URL_PATH_CHECK_EXISTS = '';                            /// 检验用户是否存在
+	  static const String URL_PATH_REGISTER = '';                                /// 注册
+	  static const String URL_PATH_RESET_PASSWORD = '';                          /// 重置密码
+    static const String URL_PATH_CHANGE_PASSWORD = '';                         /// 修改密码
+    static const String URL_PATH_GT3 = '/base/captcha';                        /// 极验
+    static const String URL_PATH_SHARED_APP_LOGIN = '';                        /// 第三方登陆
 
     static const int CONNECT_TIMEOUT = 5000;
     static const int RECEIVE_TIMEOUT = 3000;
