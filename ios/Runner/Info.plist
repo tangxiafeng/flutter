@@ -42,10 +42,6 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
-	<key>MOBAppKey</key>
-    <string>13ed304b0e036</string>
-    <key>MOBAppSecret</key>
-    <string>3838f52ebb7932e0a84e942781873423</string>
     <key>CFBundleURLTypes</key>
     <array>
         <dict>
@@ -55,8 +51,6 @@
             <string>wechat</string>
             <key>CFBundleURLSchemes</key>
             <array>
-                <string>wx617c77c82218ea2c</string>
-                <string>wx70ae63195d951329</string>
             </array>
         </dict>
         <dict>
@@ -66,8 +60,6 @@
             <string>weibo</string>
             <key>CFBundleURLSchemes</key>
             <array>
-                <string>wb568898243</string>
-                <string>wb206863495</string>
             </array>
         </dict>
     </array>
